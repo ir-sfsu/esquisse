@@ -448,6 +448,7 @@ controls_labs <- function(ns) {
 #'  theme_solid theme_stata theme_tufte theme_wsj
 #' @importFrom hrbrthemes theme_ft_rc theme_ipsum theme_ipsum_ps theme_ipsum_rc
 #'  theme_ipsum_tw theme_modern_rc
+#' @importFrom rsfsu theme_sfsu
 controls_appearance <- function(ns) {
 
   themes <- list(
@@ -465,7 +466,8 @@ controls_appearance <- function(ns) {
       "gdocs", "hc", "igray", "map", "pander",
       "par", "solarized", "solarized_2", "solid",
       "stata", "tufte", "wsj"
-    )
+    ),
+    rsfsu = list("sfsu")
   )
 
   cols <- colors_palettes()
